@@ -1,0 +1,4 @@
+// Function to start counting animation when element is in view
+const e=e=>{let r=document.querySelectorAll(".counting-container"),n=new IntersectionObserver((r,n)=>{r.forEach(r=>{if(r.isIntersecting){let o=parseInt(r.target.querySelector("div").getAttribute("data-target")),i=r.target.querySelector("div").getAttribute("units"),a=r.target.querySelector("div").getAttribute("where"),u=r.target.querySelector("div").getAttribute("start");setTimeout(()=>{t(r.target,o,i,a,u)},e),n.unobserve(r.target)}})});r.forEach(e=>{n.observe(e)})},t=(e,t,r,n,o)=>{let i=Math.round(3e3/(1e3/60)),a=e=>e*(2-e),u=0,c=d=>{u++;let l=u/i,s=Math.round(a(l)*t);"left"==n?e.querySelector("div").textContent=o-s:e.querySelector("div").textContent=o-s+r,u<i&&requestAnimationFrame(c)};requestAnimationFrame(c)};document.addEventListener("DOMContentLoaded",()=>{e(800)});//# sourceMappingURL=index.5ff6a1a3.js.map
+
+//# sourceMappingURL=index.5ff6a1a3.js.map
