@@ -1,1 +1,0 @@
-{"mappings":"AAAA,SAAS,cAAc,CAAC,UAAU,KAAK,CAAC,KAAK,GAAG","sources":["src/scripts/scripts.js"],"sourcesContent":["document.getElementById(\"banner\").style.scale = \"100\";"],"names":[],"version":3,"file":"sponsors.88db5c57.js.map","sourceRoot":"/__parcel_source_root/"}
